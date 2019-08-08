@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ES" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style type="text/css">
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+    }
+
+    .fondo {
+      background-color: #8ed6f7;
+      height: 500px;
+    }
+
+    .playa {
+      background-color: #f9f6e9;
+      height: 150px;
+    }
+
+    .texto {
+      color: white;
+      font-family: arial;
+      padding-top: 50px;
+      margin-left: 150px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    .playa {
+      position: relative;
+    }
+
+    .umbrella img {
+      position: absolute;
+      left: 5%;
+      animation: umbrella 1s;
+    }
+
+    @keyframes umbrella {
+      from {
+        left: -10px;
+      }
+
+      to {
+        right: 5%;
+      }
+    }
+
+
+    .palm img {
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      animation: palm 1s;
+    }
+
+    .ball img {
+      animation: ball 1s;
+    }
+
+    @keyframes ball {
+      from {
+        right: -10px;
+      }
+
+      to {
+        left: 80%;
+      }
+    }
+
+    .people img {
+      position: absolute;
+      left: 65%;
+      bottom: 0%;
+
+    }
+
+    .ball img {
+      position: absolute;
+      left: 100%;
+      bottom: 15%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="fondo">
+    <div class="texto">
+      <img class="sol" src="img/ejercicio-3_sun.svg" height="150px" alt="">
+      <h1>Vive el verano</h1>
+      <p>Con la protección del bloqueador solar número uno de Chile, podrás tener un verano protegido junto a toda tu familia.</p>
+    </div>
+  </div>
+  <div class="playa">
+
+    <div class="umbrella">
+      <img class="" src="img/ejercicio-3_sun-umbrella.svg" height="130px" alt="">
+    </div>
+
+    <div class="palm">
+      <img class="" src="img/ejercicio-3_palm-tree.svg" height="150px" alt="">
+    </div>
+
+    <div class="people">
+      <img class="" src="img/ejercicio-3_people.svg" height="130px" alt="">
+    </div>
+
+    <div class="ball">
+      <img class="" src="img/ejercicio-3_beach-ball.svg" height="120px" alt="">
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
